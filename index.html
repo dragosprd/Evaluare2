@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Proiect Prodan Dragos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Prodan Dragos</h1>
+            <p>Email: Prodan.Ho.Dragos@student.utcluj.ro</p>
+        </header>
+
+        <section>
+            <h2>1. Specificatii Tehnice</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Denumire Componenta</th>
+                        <th>Producator</th>
+                        <th>Parametri</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Procesor (CPU)</td>
+                        <td>Intel</td>
+                        <td>i5-12450H</td>
+                    </tr>
+                    <tr>
+                        <td>Memorie (RAM)</td>
+                        <td>Laptop</td>
+                        <td>16 GB DDR4</td>
+                    </tr>
+                    <tr>
+                        <td>Placa Video</td>
+                        <td>NVIDIA</td>
+                        <td>RTX 3050 Ti</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>2. Caracteristici Conexiune</h2>
+            <div class="card-grid">
+                <div class="card mac">
+                    <span>Adresa MAC</span>
+                    <strong>E4-A8-DF-C4-C7-BA</strong>
+                </div>
+                <div class="card ip">
+                    <span>Adresa IP</span>
+                    <strong>192.168.1.5</strong>
+                </div>
+                <div class="card down">
+                    <span>Download</span>
+                    <strong>913.94 Mbps</strong>
+                </div>
+                <div class="card up">
+                    <span>Upload</span>
+                    <strong>584.26 Mbps</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="zona-monitor" class="monitor">
+            <h2>3. Utilizarea Resurselor</h2>
+            <p id="info-text">Dublu-click pentru Slideshow</p>
+            
+            <button id="btn-stop">Ieșire Slideshow</button>
+
+            <div id="container-img">
+                <img src="cpu.png" class="thumb">
+                <img src="memory.png" class="thumb">
+                <img src="ethernet.png" class="thumb">
+                <img src="gpu.png" class="thumb">
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
